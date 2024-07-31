@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <h1 class="font-semibold">Main</h1>
+    <!-- navbar section -->
+    <section class="bg-[#12141D] container flex items-center  w-full max-w-full  text-white h-[80px]">
+          <nav class="flex items-center justify-around md:justify-between container mx-auto">
+            <menu class="flex items-center  gap-14">
+                <div>
+                    <img src="images/logo.png" width="138px" height="30px">
+                </div>
+                <ul class=" hidden justify-between gap-10 text-[13px] leading-[15px] lg:flex">
+                    <li class="font-[600]">Features</li>
+                    <li class="opacity-[60%] font-[500] ">Pricing</li>
+                    <li class="opacity-[60%] font-[500] ">How it works</li>
+                    <li class="opacity-[60%] font-[500] ">Knowledge base</li>
+                    <li class="opacity-[60%] font-[500]">FAQ</li>
+                   
+                </ul>
+            </menu>
+
+       
+        <div class="gap-3 flex ">
+            <button type="button"
+                class="w-[74px]  leading-[15px] h-[30px] text-[13px] bg-[#1D1F29]  font-[600] rounded-[4px] hidden lg:block">Sign
+                in</button>
+            <button type="button"
+                class="w-[74px] text-[#12141D]  leading-[15px] h-[30px] text-[13px] bg-[#FFFEFF]  font-[600] rounded-[4px] hidden lg:block">Sign
+                up</button>
+                <button type="button" class=" block lg:hidden">
+                <img src="images/bars.png" alt="" srcset="">
+            </button>
+        </div> 
+       
+          </nav>
+          
+    </section>
 </body>
+
 </html>
