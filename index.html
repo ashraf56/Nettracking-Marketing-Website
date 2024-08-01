@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="input.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
@@ -84,8 +86,8 @@
         <section class=" w-full max-w-7xl h-[574px] md:h-[825px] container mx-auto ">
 
             <div class="text-center py-16 w-[288px] md:w-[522px] mx-auto">
-                <h1 class="font-[700] text-[#FFFFFF] text-[42px] leading-[46px]">Key features</h1>
-                <p class="font-[400] text-[#808188] text-[18px] leading-[26px] pt-4">NetTracking™ has quickly become the
+                <h1 class="font-[700] text-[#FFFFFF] text-[26px] md:text-[42px] leading-8 md:leading-[46px]">Key features</h1>
+                <p class="font-[400] text-[#808188] text-xs md:text-[18px] leading-[18px] md:leading-[26px] pt-4">NetTracking™ has quickly become the
                     go-to content marketing solution for over 600 clients around the world</p>
             </div>
 
@@ -143,15 +145,106 @@
     </section>
 
 
+    <main>
+        <!-- Pricing -->
+        <section class=" h-full min-h-full lg:h-[686px] container mx-auto">
+            <div class="text-center py-10 md:py-16 w-[278px] md:w-full mx-auto">
+                <h1 class="font-[700] text-[#FFFFFF] text-[26px] md:text-[42px] leading-8 md:leading-[46px]">Our pricing plan</h1>
+                <p class="font-[400] text-[#808188] text-xs md:text-[18px] leading-[18px] md:leading-[26px] pt-4">online sales tracker that tracks
+                    the success of your online sales efforts.</p>
+            </div>
+            <!-- cards -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 mx-auto gap-3 container py-5">
+                <!-- card 1 -->
+                <div
+                    class="bg-[#1E2029] mx-auto  font-[Poppins] w-[321px] h-[412px] rounded-[15px] space-y-6  px-7 place-content-center ">
+                    <h4 class="text-xl font-medium leading-5 text-white">Free</h4>
+                    <p class="text-[#8C8F93] text-base leading-5 font-medium flex items-center gap-1"><span
+                            class="font-[700] text-white text-[34px] leading-[20px] ">$00 </span>3 month trial</p>
+                    <div>
+                        <ul class="text-[#606266] text-lg">
+                            <li class="flex gap-3 items-center"> <img src="images/check1.svg" alt="" srcset=""> B2B
+                                marketing</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check1.svg" alt=""
+                                    srcset="">Cloud-based solution</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check1.svg" alt="" srcset="">Marketing
+                                strategies</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check1.svg" alt="" srcset="">
+                                Automated follow up</li>
+                        </ul>
+                    </div>
 
+                    <div>
+                        <button
+                            class="w-[157px] bg-[#04AA69] text-white h-[48px] rounded-lg text-[15px] leading-[19.53px] font-medium">Get
+                            Started</button>
+                    </div>
+
+                </div>
+                <!-- card 2 -->
+                <div
+                    class="bg-[#1E2029] mx-auto font-[Poppins] w-[321px] h-[412px] rounded-[15px] space-y-6  px-7 place-content-center ">
+                    <h4 class="text-xl font-medium leading-5 text-white">Basic</h4>
+                    <p class="text-[#8C8F93] text-base leading-5 font-medium flex items-center gap-1"><span
+                            class="font-[700] text-white text-[34px] leading-[20px]">$29 </span>3 month trial</p>
+                    <div>
+                        <ul class="text-[#606266] text-lg">
+                            <li class="flex gap-3 items-center"> <img src="images/check2.svg" alt="" srcset=""> B2B
+                                marketing</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check2.svg" alt=""
+                                    srcset="">Cloud-based solution</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check2.svg" alt="" srcset="">Marketing
+                                strategies</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check2.svg" alt="" srcset="">
+                                Automated follow up</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <button
+                            class="w-[157px] bg-[#FF7661] text-white h-[48px] rounded-lg text-[15px] leading-[19.53px] font-medium">Get
+                            Started</button>
+                    </div>
+
+                </div>
+                <!-- card 3 -->
+                <div
+                    class="bg-[#1E2029] mx-auto font-[Poppins] w-[321px] h-[412px] rounded-[15px] space-y-6  px-7 place-content-center ">
+                    <h4 class="text-xl font-medium leading-5 text-white ">Premium</h4>
+                    <p class="text-[#8C8F93] text-base leading-5 font-medium flex items-center gap-1"><span
+                            class="font-[700] text-white text-[34px] leading-[20px]">$99 </span>3 month trial</p>
+                    <div>
+                        <ul class="text-[#606266] text-lg">
+                            <li class="flex gap-3 items-center"> <img src="images/check3.svg" alt="" srcset=""> B2B
+                                marketing</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check3.svg" alt=""
+                                    srcset="">Cloud-based solution</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check3.svg" alt="" srcset="">Marketing
+                                strategies</li>
+                            <li class="flex gap-3 items-center"> <img src="images/check3.svg" alt="" srcset="">
+                                Automated follow up</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <button
+                            class="w-[157px] bg-[#855AFF] text-white h-[48px] rounded-lg text-[15px] leading-[19.53px] font-medium">Get
+                            Started</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
 
 
 
 
     <!-- footer section -->
     <footer class="container w-full max-w-full  flex flex-col gap-y-10 ">
-        <div class="grid gap-3   lg:grid-cols-3   container mx-auto ">
-            <div class="flex flex-col gap-2  justify-start items-start w-96 lg:ps-20">
+        <div class="grid gap-7 md:gap-4 md:grid-cols-2  lg:grid-cols-3   container mx-auto ">
+            <div class="flex flex-col gap-2  justify-start items-start w-[209px]  ">
                 <h1 class="text-[#FFFFFF] leading-[30px] text-[30px] font-[700]">Nettracking</h1>
                 <p class="text-[#696B76] leading-[24px] text-[14px] font-[400]">We saw our customers confusing us with
                     some of the other companies intheindustry</p>
@@ -162,7 +255,7 @@
             <div class="flex  items-center lg:justify-center  gap-16">
                 <div class="flex flex-col gap-4 justify-center items-end">
                     <ul class="text-[16px] text-[#696B76] leading-[19.36px]  font-[400] space-y-3">
-                        <p class="text-[16px] text-[#FFFFFF]  leading-[19.36px]  font-[500] pb-4 ">Product</p>
+                        <p class="text-[16px] text-[#FFFFFF]  leading-[19.36px]  font-[500] pb-3 ">Product</p>
                         <li>Product</li>
                         <li>Fearures</li>
                         <li>Pricing</li>
@@ -170,8 +263,8 @@
                     </ul>
                 </div>
                 <div class="flex flex-col gap-4 justify-center place-items-center ">
-                    <ul class="text-[16px] text-[#696B76] leading-[19.36px]  font-[400] space-y-3">
-                        <p class="text-[16px] text-[#FFFFFF] leading-[19.36px]  font-[500] pb-4 ">Service</p>
+                    <ul class="text-[16px] text-[#696B76] leading-[19.36px] place-content-center font-[400] space-y-3">
+                        <p class="text-[16px] text-[#FFFFFF] leading-[19.36px]  font-[500] pb-3 ">Service</p>
 
                         <li>Blog</li>
                         <li>Road Map</li>
@@ -182,7 +275,7 @@
             </div>
             <div class="flex flex-col gap-4 justify-start items-start ">
                 <ul class="text-[16px] text-[#696B76] leading-[19.36px]  font-[400] space-y-3">
-                    <p class="text-[16px] text-[#FFFFFF] leading-[19.36px]  font-[500] pb-4 ">Solutions</p>
+                    <p class="text-[16px] text-[#FFFFFF] leading-[19.36px]  font-[500] pb-3 ">Solutions</p>
 
                     <li>Process Management</li>
                     <li>Request Management</li>
