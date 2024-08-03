@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -28,10 +29,10 @@
                 <!-- menu items -->
                 <ul class=" hidden justify-between gap-10 text-[13px] leading-[15px] lg:flex">
                     <li class="font-[600]">Features</li>
-                    <li class="opacity-[60%] font-[500] ">Pricing</li>
-                    <li class="opacity-[60%] font-[500] ">How it works</li>
-                    <li class="opacity-[60%] font-[500] ">Knowledge base</li>
-                    <li class="opacity-[60%] font-[500]">FAQ</li>
+                    <li class="opacity-[60%] font-[500] "><a href="#pricing">Pricing</a></li>
+                    <li class="opacity-[60%] font-[500] "><a href="#How">How it works</a></li>
+                    <li class="opacity-[60%] font-[500] "><a href="#whatWedo">Knowledge base</a></li>
+                    <li class="opacity-[60%] font-[500]"><a href="#faq">FAQ</a></li>
 
                 </ul>
             </menu>
@@ -165,7 +166,7 @@
 
         <!-- what we do section -->
 
-        <section class="h-full min-h-full  w-full max-w-full py-20 container mx-auto">
+        <section id="whatWedo" class="h-full min-h-full  w-full max-w-full py-20 container mx-auto">
             <div class="w-full max-w-6xl mx-auto">
                 <div class="w-full max-w-6xl justify-self-center mx-auto">
                     <div class="text-center py-16 w-[288px] md:w-[565px] mx-auto">
@@ -276,8 +277,8 @@
         </section>
 
 
-        <!-- How ot works section -->
-        <section class="h-full min-h-full px-8 w-full max-w-full container mx-auto">
+        <!-- How it works section -->
+        <section id="How" class="h-full min-h-full px-8 w-full max-w-full container mx-auto">
             <div class="w-full max-w-6xl mx-auto">
                 <div class="text-center py-5 md:py-16 w-[278px] md:w-full mx-auto">
                     <h1 class="font-[700] text-[#FFFFFF] text-[26px] md:text-[42px] leading-8 md:leading-[46px]">
@@ -397,7 +398,7 @@
 
 
         <!-- Pricing -->
-        <section class=" h-full min-h-full flex flex-col lg:h-[686px] container mx-auto">
+        <section id="pricing" class=" h-full min-h-full flex flex-col lg:h-[686px] container mx-auto">
             <div class="text-center py-10 md:py-16 w-[278px] md:w-full mx-auto">
                 <h1 class="font-[700] text-[#FFFFFF] text-[26px] md:text-[42px] leading-8 md:leading-[46px]">Our pricing
                     plan</h1>
@@ -490,8 +491,97 @@
             </div>
         </section>
 
+        <!-- Testimonials -->
+        <section class="h-[686px] w-full max-w-full container">
+            <div class="h-[640px] w-full max-w-full overflow-x-hidden">
+                <div class="w-full max-w-6xl mx-auto">
+                    <div class="text-center py-5 md:py-16 w-[278px] md:w-full mx-auto">
+                        <h1 class="font-[700] text-[#FFFFFF] text-[26px] md:text-[42px] leading-8 md:leading-[46px]">
+                            Testimonials
+                        </h1>
+                        <p
+                            class="font-[400] text-[#808188] text-xs md:text-[18px] leading-[18px] md:leading-[26px] pt-4">
+                            Nettracking is a B2B marketing software for telecommunications industry. </p>
+                    </div>
+                </div>
+                <!-- testimonials card -->
+                <div class=" flex md:px-16  container gap-7  transition-transform duration-300 ease-in-out "
+                    id="testimonial-slider">
+                    <!-- testimonial 1 -->
+                    <div
+                        class=" flex-none w-full md:w-[478px] relative h-[319px] bg-[#1E2029] rounded-[12px] place-content-center  px-10">
+                        <div class="absolute -top-2 right-10">
+                            <img src="images/icon6.png" alt="" srcset="">
+                        </div>
+                        <div class="space-y-5">
+                            <img src="images/profile.png" alt="" srcset="">
+                            <p class="text-[#696B76]  font-medium  italic text-base leading-[30px]">Nettracking is a
+                                B2B marketing software for telecommunications industry. This realtime cloud-based
+                                solution tracks your leads and works on many</p>
+                            <div class="space-y-1">
+                                <h1 class="text-[#CACACA] font-bold text-lg leading-[21.78px] ">John Smith</h1>
+                                <p class="text-[#696B76] text-xs leading-[14.52px]">Codelabs Digital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- testimonial 2 -->
+                    <div
+                        class="flex-none w-full md:w-[478px] border-2 border-[#313239] relative h-[319px] bg-[#12141D] rounded-[12px] place-content-center  px-10">
+                        <div class="absolute -top-2 right-10">
+                            <img src="images/icon6.png" alt="" srcset="">
+                        </div>
+                        <div class="space-y-5">
+                            <img src="images/profile2.png" alt="" srcset="">
+                            <p class="text-[#696B76]  font-medium  italic text-base leading-[30px]">Nettracking is a
+                                B2B marketing software for telecommunications industry. This realtime cloud-based
+                                solution tracks your leads and works on many</p>
+                            <div class="space-y-1">
+                                <h1 class="text-[#CACACA] font-bold text-lg leading-[21.78px] ">Mansur</h1>
+                                <p class="text-[#696B76] text-xs leading-[14.52px]">Codelabs Digital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- testimonial 3  -->
+                    <div
+                        class="flex-none w-full  md:w-[478px] relative h-[319px]  border-2 border-[#313239] bg-[#12141D] rounded-[12px] place-content-center  px-10">
+                        <div class="absolute -top-2 right-10">
+                            <img src="images/icon6.png" alt="" srcset="">
+                        </div>
+                        <div class="space-y-5">
+                            <img src="images/profile3.png" alt="" srcset="">
+                            <p class="text-[#696B76]  font-medium  italic text-base leading-[30px]">Nettracking is a
+                                B2B marketing software for telecommunications industry. This realtime cloud-based
+                                solution tracks your leads and works on many</p>
+                            <div class="space-y-1">
+                                <h1 class="text-[#CACACA] font-bold text-lg leading-[21.78px] ">Sajib Smith</h1>
+                                <p class="text-[#696B76] text-xs leading-[14.52px]">Codelabs Digital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center mt-4 mx-auto container">
+                    <div class="w-[341px] flex flex-col py-3 ps-20 justify-self-start   h-full">
+                        <div class="flex py-5 gap-4">
+                            <div class="bg-[#65697A] w-[11px] h-[11px] rounded-full" id="prev"></div>
+                            <div class="bg-[#65697A] w-[9px] h-[9px] rounded-full opacity-[30%]"></div>
+                            <div class="bg-[#65697A] w-[9px] h-[9px] rounded-full opacity-[30%]"></div>
+                            <div class="bg-[#65697A] w-[9px] h-[9px] rounded-full opacity-[30%]"></div>
+                        </div>
+                    </div>
+                    <div class="hidden lg:flex justify-between me-2  w-[84px] h-[14px]">
+                        <button id="prev" type="button" class="text-[#ACA6A6] w-[9px] text-3xl">
+                            <i class='bx bxs-chevron-left'></i>
+                        </button>
+                        <button id="next" type="button" class="text-[#ACA6A6] w-[9px] opacity-30 text-3xl">
+                            <i class='bx bxs-chevron-right'></i>
+                        </button>
+                    </div>
+
+                </div>
+        </section>
         <!-- FAQ -->
-        <section class="h-full min-h-full  w-full max-w-full py-20 container mx-auto">
+        <section id="faq" class="h-full min-h-full  w-full max-w-full py-20 container mx-auto">
             <div class="w-full max-w-6xl mx-auto">
                 <div class="text-center py-5 md:py-16 w-[278px] md:w-full mx-auto">
                     <h1 class="font-[700] text-[#FFFFFF] text-[26px] md:text-[42px] leading-8 md:leading-[46px]">FAQ
@@ -585,17 +675,7 @@
 
         </section>
 
-
-
-
-
-
-
-
     </main>
-
-
-
 
     <!-- footer section -->
     <footer class="container w-full max-w-full  flex flex-col gap-y-10 ">
@@ -648,6 +728,38 @@
     </footer>
 
 
+
+    <script>
+        const slider = document.getElementById('testimonial-slider');
+        const slides = document.querySelectorAll('#testimonial-slider > div');
+        let currentIndex = 0;
+        const totalSlides = slides.length;
+
+
+        function goToSlide(index) {
+
+            slider.style.transform = `translateX(-${index * (100 / totalSlides)}%)`
+
+
+        }
+
+        document.getElementById('prev').addEventListener('click', () => {
+            currentIndex = (currentIndex === 0) ? totalSlides - 2 : currentIndex - 1;
+            console.log(currentIndex);
+
+            goToSlide(currentIndex);
+        });
+
+        document.getElementById('next').addEventListener('click', () => {
+            let total = totalSlides - 1
+
+
+            currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1;
+
+            goToSlide(currentIndex);
+        });
+
+    </script>
 </body>
 
 </html>
